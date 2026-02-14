@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Memory</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #ffffff;
+    }
+
+    .pdf-viewer {
+      width: 100%;
+      height: 85vh;
+      border: none;
+    }
+
+    .playlist {
+      width: 100%;
+      height: 380px;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- OneDrive PDF 바로 표시 -->
+  <iframe
+    class="pdf-viewer"
+    src="https://1drv.ms/b/c/2D4DE02F4E641F2A/IQAVVz20KFqGR5WiKXuHC3BSASWM5bn-whT8OQwSOWLaq-M?e=2sGllG">
+  </iframe>
+
+  <!-- YouTube 플레이리스트 (ID만 교체하면 됨) -->
+  <iframe
+    class="playlist"
+    src="https://www.youtube.com/embed/videoseries?list=PLL-7KVC4qvwSMOoY_EzJCxctbOZvdvJFh"
+    allow="autoplay; encrypted-media"
+    allowfullscreen>
+  </iframe>
+
+</body>
+</html>
